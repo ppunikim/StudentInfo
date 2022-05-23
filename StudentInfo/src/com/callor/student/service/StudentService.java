@@ -2,7 +2,9 @@ package com.callor.student.service;
 
 public interface StudentService {
 	
-	public void inputStudent();
+	public String inputStudent();
+	public void saveStudent(String inputSt);
+	public void loadStudent();
 	public void printStudent();
 
 }
