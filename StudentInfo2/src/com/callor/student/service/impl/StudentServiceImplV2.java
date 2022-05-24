@@ -22,6 +22,7 @@ public class StudentServiceImplV2 extends StudentServiceImplV1{
 		printAndFileSaveStudent(ps);
 	}//end printStudent
 	
+	//파일로 저장해 뽑아놓을 수 있는 것.
 	protected void printAndFileSaveStudent(PrintStream ps) {
 		//6번. V1 끝나고 V2로 넘어와서 바로 해주기.
 		

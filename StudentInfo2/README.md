@@ -17,7 +17,7 @@
 ## student.txt 파일에 가상 데이터 생성하기
 * 데이터를 미리 만들어 놓고 시작하기
 * 데이터는 학번:이름:학과:학년:전화번호의 형태로 저장한다.
-* 
-* 
-* 
-* 
+
+## PrintStream을 사용한 Console출력과 FileWriter
+* Console 출력에 사용하는 System.out은 PrintStream의 하위 클래스이다.
+* Console에 출력하는 System.out 대신 파일 이름을 매개변수로 받는 PrintStream 객체를 생성하면 print() 메서드를 사용하여 Console에 출력하는 것과 같은 방법으로 text파일을 생성, 저장할 수 있다.
